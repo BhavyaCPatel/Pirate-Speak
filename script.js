@@ -12,6 +12,6 @@ btn.addEventListener("click",()=>{
         output.innerHTML=response.contents.translated
     })
     .catch(err=>{
-        alert(err)
+        alert('Some error occured')
         console.log(err)})
 });
